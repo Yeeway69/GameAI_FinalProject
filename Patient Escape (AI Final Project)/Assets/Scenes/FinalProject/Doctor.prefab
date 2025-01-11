@@ -1558,6 +1558,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4102942292498058917}
+  - component: {fileID: 4876721794946001648}
+  - component: {fileID: 5481348564133323028}
   m_Layer: 0
   m_Name: Doctor
   m_TagString: Untagged
@@ -1581,6 +1583,35 @@ Transform:
   - {fileID: 5211360541465343044}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4876721794946001648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5924768998130300813}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37f9ba321a643d5439b5cc84179d810a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  patient: {fileID: 0}
+  treasure: {fileID: 0}
+  dist2Steal: 10
+--- !u!114 &5481348564133323028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5924768998130300813}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1e121559fbbc2def8c7f84846b680f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 0}
+  floor: {fileID: 0}
 --- !u!1 &6468917336038933793
 GameObject:
   m_ObjectHideFlags: 0
