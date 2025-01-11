@@ -1223,7 +1223,7 @@ MonoBehaviour:
       m_ColorSpace: -1
       m_NumColorKeys: 2
       m_NumAlphaKeys: 2
-    floatVal: 0.209
+    floatVal: 0.169
     curveVal:
       serializedVersion: 2
       m_Curve:
@@ -2845,7 +2845,7 @@ MonoBehaviour:
       m_ColorSpace: -1
       m_NumColorKeys: 2
       m_NumAlphaKeys: 2
-    floatVal: 1.04
+    floatVal: 1.56
     curveVal:
       serializedVersion: 2
       m_Curve:
@@ -2958,7 +2958,7 @@ MonoBehaviour:
       m_ColorSpace: -1
       m_NumColorKeys: 2
       m_NumAlphaKeys: 2
-    floatVal: 11.9
+    floatVal: 9.3
     curveVal:
       serializedVersion: 2
       m_Curve:
@@ -3017,7 +3017,7 @@ MonoBehaviour:
       m_ColorSpace: -1
       m_NumColorKeys: 2
       m_NumAlphaKeys: 2
-    floatVal: 19.6
+    floatVal: 15.6
     curveVal:
       serializedVersion: 2
       m_Curve:
@@ -3076,7 +3076,7 @@ MonoBehaviour:
       m_ColorSpace: -1
       m_NumColorKeys: 2
       m_NumAlphaKeys: 2
-    floatVal: 28.4
+    floatVal: 27
     curveVal:
       serializedVersion: 2
       m_Curve:
@@ -3135,7 +3135,7 @@ MonoBehaviour:
       m_ColorSpace: -1
       m_NumColorKeys: 2
       m_NumAlphaKeys: 2
-    floatVal: 33.6
+    floatVal: 32.7
     curveVal:
       serializedVersion: 2
       m_Curve:
@@ -3194,7 +3194,7 @@ MonoBehaviour:
       m_ColorSpace: -1
       m_NumColorKeys: 2
       m_NumAlphaKeys: 2
-    floatVal: 0.7
+    floatVal: 1.13
     curveVal:
       serializedVersion: 2
       m_Curve:
