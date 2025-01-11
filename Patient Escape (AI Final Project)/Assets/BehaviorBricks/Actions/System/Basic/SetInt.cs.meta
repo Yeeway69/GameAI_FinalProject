@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 65d065459c4c1174c940f3deb0610a51
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 74816
+  packageName: Behavior Bricks
+  packageVersion: 1.0.3
+  assetPath: Assets/BehaviorBricks/Actions/System/Basic/SetInt.cs
+  uploadId: 668087

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ceccfd7378367f24084ec0739914ad11
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 74816
+  packageName: Behavior Bricks
+  packageVersion: 1.0.3
+  assetPath: Assets/BehaviorBricks/Actions/System/Navigation/MoveToRandomPosition.cs
+  uploadId: 668087

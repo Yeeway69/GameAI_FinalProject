@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 893b7d51e3dde1e4ba0f89edc56547da
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 74816
+  packageName: Behavior Bricks
+  packageVersion: 1.0.3
+  assetPath: Assets/BehaviorBricks/Actions/System/Basic/WaitForSeconds.cs
+  uploadId: 668087

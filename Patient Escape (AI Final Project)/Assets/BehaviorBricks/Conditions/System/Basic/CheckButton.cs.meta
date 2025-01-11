@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0da6938d1d92aa643bb4748a9d61176b
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 74816
+  packageName: Behavior Bricks
+  packageVersion: 1.0.3
+  assetPath: Assets/BehaviorBricks/Conditions/System/Basic/CheckButton.cs
+  uploadId: 668087

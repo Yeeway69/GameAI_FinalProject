@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4486a9bf582331b4c99fa37bb5348247
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 74816
+  packageName: Behavior Bricks
+  packageVersion: 1.0.3
+  assetPath: Assets/BehaviorBricks/Samples/ProgrammersQuickStartGuide/Done/DoneBulletScript.cs
+  uploadId: 668087

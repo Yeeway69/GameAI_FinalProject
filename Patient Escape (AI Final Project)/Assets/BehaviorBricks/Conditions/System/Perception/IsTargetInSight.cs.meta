@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 48eebc8f4fd83a946833646d0f603478
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 74816
+  packageName: Behavior Bricks
+  packageVersion: 1.0.3
+  assetPath: Assets/BehaviorBricks/Conditions/System/Perception/IsTargetInSight.cs
+  uploadId: 668087

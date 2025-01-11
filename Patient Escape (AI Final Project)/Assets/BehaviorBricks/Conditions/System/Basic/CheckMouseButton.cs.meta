@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 72bfd005e3a956140a050742a72e8f6d
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 74816
+  packageName: Behavior Bricks
+  packageVersion: 1.0.3
+  assetPath: Assets/BehaviorBricks/Conditions/System/Basic/CheckMouseButton.cs
+  uploadId: 668087

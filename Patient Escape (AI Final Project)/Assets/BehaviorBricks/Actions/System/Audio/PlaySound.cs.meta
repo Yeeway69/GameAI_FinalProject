@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1e0059cfcd81b864db80c90d35c052e2
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 74816
+  packageName: Behavior Bricks
+  packageVersion: 1.0.3
+  assetPath: Assets/BehaviorBricks/Actions/System/Audio/PlaySound.cs
+  uploadId: 668087

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6effe00d388c3674e9bdacaa8d677fe0
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 74816
+  packageName: Behavior Bricks
+  packageVersion: 1.0.3
+  assetPath: Assets/BehaviorBricks/Actions/System/Vector3/GetRandomInArea.cs
+  uploadId: 668087

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 34a907637a1e6744da4da88c98de5bfa
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 74816
+  packageName: Behavior Bricks
+  packageVersion: 1.0.3
+  assetPath: Assets/BehaviorBricks/Actions/System/GameObject/AddComponent.cs
+  uploadId: 668087

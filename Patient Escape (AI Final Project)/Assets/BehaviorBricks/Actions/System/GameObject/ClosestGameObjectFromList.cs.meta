@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d63d4dc5fb4be8c45975d21482aa7ff1
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 74816
+  packageName: Behavior Bricks
+  packageVersion: 1.0.3
+  assetPath: Assets/BehaviorBricks/Actions/System/GameObject/ClosestGameObjectFromList.cs
+  uploadId: 668087

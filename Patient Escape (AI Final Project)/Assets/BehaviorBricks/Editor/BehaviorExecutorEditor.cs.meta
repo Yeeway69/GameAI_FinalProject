@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 3ac5b059c77d7f84c99475e8d66b9749
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 74816
+  packageName: Behavior Bricks
+  packageVersion: 1.0.3
+  assetPath: Assets/BehaviorBricks/Editor/BehaviorExecutorEditor.cs
+  uploadId: 668087

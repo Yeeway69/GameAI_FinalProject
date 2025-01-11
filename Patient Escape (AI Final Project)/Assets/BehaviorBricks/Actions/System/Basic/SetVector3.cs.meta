@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0d517141427dc164bbaa054a2feef4e4
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 74816
+  packageName: Behavior Bricks
+  packageVersion: 1.0.3
+  assetPath: Assets/BehaviorBricks/Actions/System/Basic/SetVector3.cs
+  uploadId: 668087
