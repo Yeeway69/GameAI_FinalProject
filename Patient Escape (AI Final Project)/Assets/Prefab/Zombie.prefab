@@ -236,7 +236,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   awarenessRadius: 20
-  showDebug: 1
+  showDebug: 0
 --- !u!114 &7535503738129458127
 MonoBehaviour:
   m_ObjectHideFlags: 0
