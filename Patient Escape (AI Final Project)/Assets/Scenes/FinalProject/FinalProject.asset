@@ -17,7 +17,7 @@ MonoBehaviour:
   settings:
     m_Version: 1
     dilationSettings:
-      enableDilation: 0
+      enableDilation: 1
       dilationDistance: 1
       dilationValidityThreshold: 0.25
       dilationIterations: 1
@@ -69,11 +69,11 @@ MonoBehaviour:
         hasOnlyBiggerBricks: 0
     - position: {x: -1, y: 0, z: -1}
       index: 3
-      probeCount: 16320
+      probeCount: 16832
       minSubdiv: 0
       indexChunkCount: 91
-      shChunkCount: 2
-      bricksCount: 255
+      shChunkCount: 3
+      bricksCount: 263
       indirectionEntryInfo:
       - positionInBricks: {x: -27, y: 0, z: -27}
         minSubdiv: 0
@@ -83,11 +83,11 @@ MonoBehaviour:
         hasOnlyBiggerBricks: 0
     - position: {x: -1, y: 0, z: 0}
       index: 12
-      probeCount: 38528
+      probeCount: 39488
       minSubdiv: 0
       indexChunkCount: 91
       shChunkCount: 5
-      bricksCount: 602
+      bricksCount: 617
       indirectionEntryInfo:
       - positionInBricks: {x: -27, y: 0, z: 0}
         minSubdiv: 0
@@ -153,11 +153,11 @@ MonoBehaviour:
         hasOnlyBiggerBricks: 0
     - position: {x: 0, y: 0, z: -1}
       index: 4
-      probeCount: 27008
+      probeCount: 29888
       minSubdiv: 0
       indexChunkCount: 91
       shChunkCount: 4
-      bricksCount: 422
+      bricksCount: 467
       indirectionEntryInfo:
       - positionInBricks: {x: 0, y: 0, z: -27}
         minSubdiv: 0
@@ -167,11 +167,11 @@ MonoBehaviour:
         hasOnlyBiggerBricks: 0
     - position: {x: 0, y: 0, z: 0}
       index: 13
-      probeCount: 53888
+      probeCount: 57152
       minSubdiv: 0
       indexChunkCount: 91
       shChunkCount: 7
-      bricksCount: 842
+      bricksCount: 893
       indirectionEntryInfo:
       - positionInBricks: {x: 0, y: 0, z: 0}
         minSubdiv: 0
@@ -199,38 +199,38 @@ MonoBehaviour:
   cellSharedDataAsset:
     m_AssetGUID: aee3d14f9195f9a47b69032f768eedf4
     m_StreamableAssetPath: APVStreamingAssets\58707181fa9a1444887b31fc1109283b\aee3d14f9195f9a47b69032f768eedf4.bytes
-    m_ElementSize: 73728
+    m_ElementSize: 8192
     m_StreamableCellDescs:
       m_Keys: 0000000009000000030000000c00000015000000010000000a00000013000000040000000d00000016000000
       m_Values:
       - offset: 0
         elementCount: 2
-      - offset: 147456
+      - offset: 16384
         elementCount: 2
-      - offset: 294912
-        elementCount: 2
-      - offset: 442368
+      - offset: 32768
+        elementCount: 3
+      - offset: 57344
         elementCount: 5
-      - offset: 811008
+      - offset: 98304
         elementCount: 1
-      - offset: 884736
+      - offset: 106496
         elementCount: 2
-      - offset: 1032192
+      - offset: 122880
         elementCount: 4
-      - offset: 1327104
+      - offset: 155648
         elementCount: 1
-      - offset: 1400832
+      - offset: 163840
         elementCount: 4
-      - offset: 1695744
+      - offset: 196608
         elementCount: 7
-      - offset: 2211840
+      - offset: 253952
         elementCount: 1
     m_Asset: {fileID: 0}
   scenarios:
     m_Keys:
     - Default
     m_Values:
-    - sceneHash: -343708368
+    - sceneHash: -312508642
       cellDataAsset:
         m_AssetGUID: 51e645e0b05c8d54aac0fb850552c366
         m_StreamableAssetPath: APVStreamingAssets\58707181fa9a1444887b31fc1109283b\51e645e0b05c8d54aac0fb850552c366.bytes
@@ -243,22 +243,22 @@ MonoBehaviour:
           - offset: 262144
             elementCount: 2
           - offset: 524288
-            elementCount: 2
-          - offset: 786432
+            elementCount: 3
+          - offset: 917504
             elementCount: 5
-          - offset: 1441792
-            elementCount: 1
           - offset: 1572864
-            elementCount: 2
-          - offset: 1835008
-            elementCount: 4
-          - offset: 2359296
             elementCount: 1
-          - offset: 2490368
+          - offset: 1703936
+            elementCount: 2
+          - offset: 1966080
             elementCount: 4
-          - offset: 3014656
+          - offset: 2490368
+            elementCount: 1
+          - offset: 2621440
+            elementCount: 4
+          - offset: 3145728
             elementCount: 7
-          - offset: 3932160
+          - offset: 4063232
             elementCount: 1
         m_Asset: {fileID: 0}
       cellOptionalDataAsset:
@@ -273,22 +273,22 @@ MonoBehaviour:
           - offset: 262144
             elementCount: 2
           - offset: 524288
-            elementCount: 2
-          - offset: 786432
+            elementCount: 3
+          - offset: 917504
             elementCount: 5
-          - offset: 1441792
-            elementCount: 1
           - offset: 1572864
-            elementCount: 2
-          - offset: 1835008
-            elementCount: 4
-          - offset: 2359296
             elementCount: 1
-          - offset: 2490368
+          - offset: 1703936
+            elementCount: 2
+          - offset: 1966080
             elementCount: 4
-          - offset: 3014656
+          - offset: 2490368
+            elementCount: 1
+          - offset: 2621440
+            elementCount: 4
+          - offset: 3145728
             elementCount: 7
-          - offset: 3932160
+          - offset: 4063232
             elementCount: 1
         m_Asset: {fileID: 0}
       cellProbeOcclusionDataAsset:
@@ -303,7 +303,7 @@ MonoBehaviour:
           - offset: 0
             elementCount: 2
           - offset: 0
-            elementCount: 2
+            elementCount: 3
           - offset: 0
             elementCount: 5
           - offset: 0
@@ -333,22 +333,22 @@ MonoBehaviour:
       - offset: 2208
         elementCount: 142
       - offset: 4480
-        elementCount: 255
-      - offset: 8560
-        elementCount: 602
-      - offset: 18192
+        elementCount: 263
+      - offset: 8688
+        elementCount: 617
+      - offset: 18560
         elementCount: 21
-      - offset: 18528
+      - offset: 18896
         elementCount: 208
-      - offset: 21856
+      - offset: 22224
         elementCount: 394
-      - offset: 28160
+      - offset: 28528
         elementCount: 19
-      - offset: 28464
-        elementCount: 422
-      - offset: 35216
-        elementCount: 842
-      - offset: 48688
+      - offset: 28832
+        elementCount: 467
+      - offset: 36304
+        elementCount: 893
+      - offset: 50592
         elementCount: 25
     m_Asset: {fileID: 0}
   cellSupportDataAsset:
@@ -363,22 +363,22 @@ MonoBehaviour:
       - offset: 524288
         elementCount: 2
       - offset: 1048576
-        elementCount: 2
-      - offset: 1572864
+        elementCount: 3
+      - offset: 1835008
         elementCount: 5
-      - offset: 2883584
-        elementCount: 1
       - offset: 3145728
-        elementCount: 2
-      - offset: 3670016
-        elementCount: 4
-      - offset: 4718592
         elementCount: 1
-      - offset: 4980736
+      - offset: 3407872
+        elementCount: 2
+      - offset: 3932160
         elementCount: 4
-      - offset: 6029312
+      - offset: 4980736
+        elementCount: 1
+      - offset: 5242880
+        elementCount: 4
+      - offset: 6291456
         elementCount: 7
-      - offset: 7864320
+      - offset: 8126464
         elementCount: 1
     m_Asset: {fileID: 0}
   chunkSizeInBricks: 128
@@ -390,7 +390,7 @@ MonoBehaviour:
   bakedSimplificationLevels: 3
   bakedMinDistanceBetweenProbes: 1
   bakedProbeOcclusion: 0
-  bakedSkyOcclusionValue: 1
+  bakedSkyOcclusionValue: 0
   bakedSkyShadingDirectionValue: 0
   bakedProbeOffset: {x: 0, y: 0, z: 0}
   bakedMaskCount: 1
@@ -405,9 +405,9 @@ MonoBehaviour:
   L2TextureChunkSize: 32768
   ProbeOcclusionChunkSize: 0
   sharedValidityMaskChunkSize: 8192
-  sharedSkyOcclusionL0L1ChunkSize: 65536
+  sharedSkyOcclusionL0L1ChunkSize: 0
   sharedSkyShadingDirectionIndicesChunkSize: 0
-  sharedDataChunkSize: 73728
+  sharedDataChunkSize: 8192
   supportPositionChunkSize: 98304
   supportValidityChunkSize: 32768
   supportTouchupChunkSize: 32768
@@ -424,7 +424,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   minRendererVolumeSize: 0.1
-  skyOcclusion: 1
+  skyOcclusion: 0
   skyOcclusionBakingSamples: 2048
   skyOcclusionBakingBounces: 2
   skyOcclusionAverageAlbedo: 0.6
