@@ -1,6 +1,10 @@
-You can import the Package to run the project, Althouhgh it is highly recommended to access through the GitHub Repo: https://github.com/Yeeway69/GameAI_FinalProject
+Please go to the links listed in the Word doc for Deliverable Resources
+
+You can import the Package to run the project, Although it is HIGHLY recommended to access through the GitHub Repo: https://github.com/Yeeway69/GameAI_FinalProject
 
 Things to Notice: (also reason for recommendation above)
+
+Due to the limitation of Exporting Packages, you need to install ML_agent package first, then annoyingly Unity does not allow us to export the agent type settings therefore you have to Manully set the agent types for "Nurse", "Patient", "Doctor", also for NavMeshSurface in Grounds, and the the other two Grounds in its child, and then rebake these three NavMeshSurface(although baking only the top one should also work in this case). Then you should be able to run the project
 
 Some feature may request Unity 6, therefore please run with the current Official Recommended Unity 6 Version to Run the Project
 
