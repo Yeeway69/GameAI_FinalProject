@@ -17,6 +17,15 @@ public class ZombiePerception : MonoBehaviour
         zombieController = GetComponent<ZombieController>();
         // Find the player - you might want to modify this based on your game's setup
         target = GameObject.FindGameObjectWithTag("Player")?.transform;
+        
+        if (target == null)
+        {
+            Debug.LogError($"ZombiePerception on {gameObject.name}: Could not find Player target!");
+        }
+        else
+        {
+            Debug.Log($"ZombiePerception on {gameObject.name}: Found player target {target.name}");
+        }
     }
 
     void Update()
@@ -25,6 +34,13 @@ public class ZombiePerception : MonoBehaviour
 
         bool isSpotted = CheckTargetDetection();
         zombieController.OnSpottedByPlayer(isSpotted);
+        
+        // Add debug visualization
+        if (isSpotted)
+        {
+            Debug.DrawLine(transform.position, target.position, Color.red);
+            Debug.Log($"ZombiePerception: {gameObject.name} can see player. Distance: {Vector3.Distance(transform.position, target.position)}");
+        }
     }
 
     bool CheckTargetDetection()
@@ -42,8 +58,11 @@ public class ZombiePerception : MonoBehaviour
                 // Check if there are obstacles between zombie and target
                 if (!Physics.Raycast(transform.position, directionToTarget, distanceToTarget, obstacleMask))
                 {
-                    Debug.Log($"Zombie {gameObject.name} spotted target! Distance: {distanceToTarget}, Angle: {angleToTarget}");
                     return true;
+                }
+                else
+                {
+                    Debug.DrawRay(transform.position, directionToTarget * distanceToTarget, Color.yellow);
                 }
             }
         }

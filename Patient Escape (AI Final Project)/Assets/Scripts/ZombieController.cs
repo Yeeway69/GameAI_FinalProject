@@ -17,6 +17,23 @@ public class ZombieController : MonoBehaviour
     void Start()
     {
         moves = GetComponent<Moves>();
+        if (moves != null && moves.target == null)
+        {
+            // Try to find the player
+            GameObject player = GameObject.FindGameObjectWithTag("Player");
+            if (player != null)
+            {
+                moves.target = player;
+                if (showDebug)
+                {
+                    Debug.Log($"ZombieController found and set player target for {gameObject.name}");
+                }
+            }
+            else if (showDebug)
+            {
+                Debug.LogWarning($"ZombieController couldn't find player target for {gameObject.name}");
+            }
+        }
         if (showDebug)
         {
             Debug.Log($"ZombieController started on {gameObject.name}");
