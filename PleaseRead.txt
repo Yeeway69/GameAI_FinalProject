@@ -1,0 +1,11 @@
+You can import the Package to run the project, Althouhgh it is highly recommended to access through the GitHub Repo: https://github.com/Yeeway69/GameAI_FinalProject
+
+Things to Notice: (also reason for recommendation above)
+
+Some feature may request Unity 6, therefore please run with the current Official Recommended Unity 6 Version to Run the Project
+
+To see the Project, Go to the Scenes Folder, the scene that contains the Final Project is called "Final Project" Scene.
+
+To get the best visual it is recommended to click on the Adaptive Probe Volume GameObject in the hierarchy, it will have a warning that guides you to enable Adaptive Probe Volume in your Project, since settings can not be exported as Packages.
+
+Finally, the Weather Module asset I used is in a package Manifest mode, Unity does not officially allow you to export that, therefore we don't bother with that, the project should run without it however with some major visual downgrades. 
